@@ -11,6 +11,8 @@ export async function messageCreateHandler(client, message) {
     await sentMessage.react("<:palmeiras:1347383616442732614>");
     await sentMessage.react("<:corinthians:1347383067030982697>");
     await sentMessage.react("<:santos:1347383687234326548>");
+    await sentMessage.react("<:atletico_mg:1349093366146531459>");
+    await sentMessage.react("<:cruzeiro:1349093938455122021>");
     return;
   }
 

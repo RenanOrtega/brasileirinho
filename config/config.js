@@ -17,6 +17,8 @@ export const TEAM_ROLES = {
   [process.env.ROLE_PAL_ID]: "Palmeirense",
   [process.env.ROLE_COR_ID]: "Corintiano",
   [process.env.ROLE_SAN_ID]: "Santista",
+  [process.env.ROLE_ATL_MG_ID]: "Atleticano",
+  [process.env.ROLE_CRU_ID]: "Cruzeirense",
 };
 
 export const TEAM_TO_ROLE_MAPPING = {
@@ -24,6 +26,8 @@ export const TEAM_TO_ROLE_MAPPING = {
   Palmeiras: "Palmeirense",
   Corinthians: "Corintiano",
   Santos: "Santista",
+  Cruzeiro: "Cruzeirense",
+  "Atlético-MG": "Atleticano",
 };
 
 export const XINGAMENTOS = [
@@ -43,6 +47,10 @@ export const TEAM_URLS = {
     "https://ge.globo.com/futebol/times/palmeiras/agenda-de-jogos-do-palmeiras/#/encerrados",
   "são paulo":
     "https://ge.globo.com/futebol/times/sao-paulo/agenda-de-jogos-do-sao-paulo/#/encerrados",
+  "atlético-mg":
+    "https://ge.globo.com/futebol/times/atletico-mg/agenda-de-jogos-do-atletico-mg/#/encerrados",
+  cruzeiro:
+    "https://ge.globo.com/futebol/times/cruzeiro/agenda-de-jogos-do-cruzeiro/#/encerrados",
 };
 
 export const CACHE_LIMIT = process.env.CACHE_LIMIT;
