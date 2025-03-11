@@ -17,7 +17,7 @@ async function initialize() {
   try {
     await loadServerConfigs();
     registerEvents(client);
-
+    console.log(DISCORD_TOKEN);
     await client.login(DISCORD_TOKEN);
   } catch (error) {
     console.error("Erro ao inicializar o bot:", error);
