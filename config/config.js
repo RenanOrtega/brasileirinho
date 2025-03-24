@@ -15,7 +15,7 @@ export const CHANNEL_ID = process.env.CHANNEL_ID;
 export const TEAM_ROLES = {
   [process.env.ROLE_SP_ID]: "São Paulino",
   [process.env.ROLE_PAL_ID]: "Palmeirense",
-  [process.env.ROLE_COR_ID]: "Corintiano",
+  [process.env.ROLE_COR_ID]: "Corinthiano",
   [process.env.ROLE_SAN_ID]: "Santista",
   [process.env.ROLE_ATL_MG_ID]: "Atleticano",
   [process.env.ROLE_CRU_ID]: "Cruzeirense",
@@ -24,7 +24,7 @@ export const TEAM_ROLES = {
 export const TEAM_TO_ROLE_MAPPING = {
   "São Paulo": "São Paulino",
   Palmeiras: "Palmeirense",
-  Corinthians: "Corintiano",
+  Corinthians: "Corinthiano",
   Santos: "Santista",
   Cruzeiro: "Cruzeirense",
   "Atlético-MG": "Atleticano",

@@ -22,8 +22,8 @@ export async function sendLoss(client) {
   const config = serverConfigs["1347305813735243817"];
   const channel = client.channels.cache.get(config.channelId);
 
-  const winnerTeam = "Palmeiras";
-  const loserTeam = "São Paulo";
+  const winnerTeam = "Corinthians";
+  const loserTeam = "Palmeiras";
 
   const roleName = findRoleNameForTeam(loserTeam);
   let roleTag = "";
@@ -40,7 +40,7 @@ export async function sendLoss(client) {
 
   const mensagem = XINGAMENTOS[Math.floor(Math.random() * XINGAMENTOS.length)]
     .replace("{role}", roleTag)
-    .replace("{team}", loserTeam);
+    .replace("{team}", team);
 
   const embed = new EmbedBuilder()
     .setColor("#FF0000")
